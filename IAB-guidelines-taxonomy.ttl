@@ -1,5 +1,6 @@
 
 @base <http://www.iab.org/qag#> .
+@prefix : <http://www.iab.org/qag#>
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,1959 +10,2351 @@
         a skos:Concept ;
         skos:prefLabel "Arts & Entertainment" ; 
         rdfs:label "Arts & Entertainment" ;
-         .
+         
+.
 :IAB1-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Books & Literature" ; 
         rdfs:label "Books & Literature" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Celebrity Fan/Gossip" ; 
         rdfs:label "Celebrity Fan/Gossip" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Fine Art" ; 
         rdfs:label "Fine Art" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Humor" ; 
         rdfs:label "Humor" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Movies" ; 
         rdfs:label "Movies" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Music" ; 
         rdfs:label "Music" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB1-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Television" ; 
         rdfs:label "Television" ;
-         skos:broader :IAB1 .
+         skos:broader :IAB1
+.
 :IAB2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Automotive" ; 
         rdfs:label "Automotive" ;
-         .
+         
+.
 :IAB2-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Auto Parts" ; 
         rdfs:label "Auto Parts" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Auto Repair" ; 
         rdfs:label "Auto Repair" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Buying/Selling Cars" ; 
         rdfs:label "Buying/Selling Cars" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Car Culture" ; 
         rdfs:label "Car Culture" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Certified Pre-Owned" ; 
         rdfs:label "Certified Pre-Owned" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Convertible" ; 
         rdfs:label "Convertible" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Coupe" ; 
         rdfs:label "Coupe" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Crossover" ; 
         rdfs:label "Crossover" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Diesel" ; 
         rdfs:label "Diesel" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Electric Vehicle" ; 
         rdfs:label "Electric Vehicle" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hatchback" ; 
         rdfs:label "Hatchback" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hybrid" ; 
         rdfs:label "Hybrid" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Luxury" ; 
         rdfs:label "Luxury" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "MiniVan" ; 
         rdfs:label "MiniVan" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mororcycles" ; 
         rdfs:label "Mororcycles" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Off-Road Vehicles" ; 
         rdfs:label "Off-Road Vehicles" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Performance Vehicles" ; 
         rdfs:label "Performance Vehicles" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pickup" ; 
         rdfs:label "Pickup" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Road-Side Assistance" ; 
         rdfs:label "Road-Side Assistance" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sedan" ; 
         rdfs:label "Sedan" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Trucks & Accessories" ; 
         rdfs:label "Trucks & Accessories" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Vintage Cars" ; 
         rdfs:label "Vintage Cars" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB2-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Wagon" ; 
         rdfs:label "Wagon" ;
-         skos:broader :IAB2 .
+         skos:broader :IAB2
+.
 :IAB3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Business" ; 
         rdfs:label "Business" ;
-         .
+         
+.
 :IAB3-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Advertising" ; 
         rdfs:label "Advertising" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Agriculture" ; 
         rdfs:label "Agriculture" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Biotech/Biomedical" ; 
         rdfs:label "Biotech/Biomedical" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Business Software" ; 
         rdfs:label "Business Software" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Construction" ; 
         rdfs:label "Construction" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Forestry" ; 
         rdfs:label "Forestry" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Government" ; 
         rdfs:label "Government" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Green Solutions" ; 
         rdfs:label "Green Solutions" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Human Resources" ; 
         rdfs:label "Human Resources" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Logistics" ; 
         rdfs:label "Logistics" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Marketing" ; 
         rdfs:label "Marketing" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB3-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Metals" ; 
         rdfs:label "Metals" ;
-         skos:broader :IAB3 .
+         skos:broader :IAB3
+.
 :IAB4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Careers" ; 
         rdfs:label "Careers" ;
-         .
+         
+.
 :IAB4-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Career Planning" ; 
         rdfs:label "Career Planning" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "College" ; 
         rdfs:label "College" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Financial Aid" ; 
         rdfs:label "Financial Aid" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Job Fairs" ; 
         rdfs:label "Job Fairs" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Job Search" ; 
         rdfs:label "Job Search" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Resume Writing/Advice" ; 
         rdfs:label "Resume Writing/Advice" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Nursing" ; 
         rdfs:label "Nursing" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Scholarships" ; 
         rdfs:label "Scholarships" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Telecommuting" ; 
         rdfs:label "Telecommuting" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "U.S. Military" ; 
         rdfs:label "U.S. Military" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB4-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Career Advice" ; 
         rdfs:label "Career Advice" ;
-         skos:broader :IAB4 .
+         skos:broader :IAB4
+.
 :IAB5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Education" ; 
         rdfs:label "Education" ;
-         .
+         
+.
 :IAB5-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "7-12 Education" ; 
         rdfs:label "7-12 Education" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Adult Education" ; 
         rdfs:label "Adult Education" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Art History" ; 
         rdfs:label "Art History" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Colledge Administration" ; 
         rdfs:label "Colledge Administration" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "College Life" ; 
         rdfs:label "College Life" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Distance Learning" ; 
         rdfs:label "Distance Learning" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "English as a 2nd Language" ; 
         rdfs:label "English as a 2nd Language" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Language Learning" ; 
         rdfs:label "Language Learning" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Graduate School" ; 
         rdfs:label "Graduate School" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Homeschooling" ; 
         rdfs:label "Homeschooling" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Homework/Study Tips" ; 
         rdfs:label "Homework/Study Tips" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "K-6 Educators" ; 
         rdfs:label "K-6 Educators" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Private School" ; 
         rdfs:label "Private School" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Special Education" ; 
         rdfs:label "Special Education" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB5-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Studying Business" ; 
         rdfs:label "Studying Business" ;
-         skos:broader :IAB5 .
+         skos:broader :IAB5
+.
 :IAB6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Family & Parenting" ; 
         rdfs:label "Family & Parenting" ;
-         .
+         
+.
 :IAB6-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Adoption" ; 
         rdfs:label "Adoption" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Babies & Toddlers" ; 
         rdfs:label "Babies & Toddlers" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Daycare/Pre School" ; 
         rdfs:label "Daycare/Pre School" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Family Internet" ; 
         rdfs:label "Family Internet" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Parenting - K-6 Kids" ; 
         rdfs:label "Parenting - K-6 Kids" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Parenting teens" ; 
         rdfs:label "Parenting teens" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pregnancy" ; 
         rdfs:label "Pregnancy" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Special Needs Kids" ; 
         rdfs:label "Special Needs Kids" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB6-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Eldercare" ; 
         rdfs:label "Eldercare" ;
-         skos:broader :IAB6 .
+         skos:broader :IAB6
+.
 :IAB7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Health & Fitness" ; 
         rdfs:label "Health & Fitness" ;
-         .
+         
+.
 :IAB7-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Exercise" ; 
         rdfs:label "Exercise" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "A.D.D." ; 
         rdfs:label "A.D.D." ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "AIDS/HIV" ; 
         rdfs:label "AIDS/HIV" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Allergies" ; 
         rdfs:label "Allergies" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Alternative Medicine" ; 
         rdfs:label "Alternative Medicine" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Arthritis" ; 
         rdfs:label "Arthritis" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Asthma" ; 
         rdfs:label "Asthma" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Autism/PDD" ; 
         rdfs:label "Autism/PDD" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Bipolar Disorder" ; 
         rdfs:label "Bipolar Disorder" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Brain Tumor" ; 
         rdfs:label "Brain Tumor" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cancer" ; 
         rdfs:label "Cancer" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cholesterol" ; 
         rdfs:label "Cholesterol" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Chronic Fatigue Syndrome" ; 
         rdfs:label "Chronic Fatigue Syndrome" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Chronic Pain" ; 
         rdfs:label "Chronic Pain" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cold & Flu" ; 
         rdfs:label "Cold & Flu" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Deafness" ; 
         rdfs:label "Deafness" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Dental Care" ; 
         rdfs:label "Dental Care" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Depression" ; 
         rdfs:label "Depression" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Dermatology" ; 
         rdfs:label "Dermatology" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Diabetes" ; 
         rdfs:label "Diabetes" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Epilepsy" ; 
         rdfs:label "Epilepsy" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "GERD/Acid Reflux" ; 
         rdfs:label "GERD/Acid Reflux" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Headaches/Migraines" ; 
         rdfs:label "Headaches/Migraines" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Heart Disease" ; 
         rdfs:label "Heart Disease" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Herbs for Health" ; 
         rdfs:label "Herbs for Health" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Holistic Healing" ; 
         rdfs:label "Holistic Healing" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-27 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "IBS/Crohn's Disease" ; 
         rdfs:label "IBS/Crohn's Disease" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-28 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Incest/Abuse Support" ; 
         rdfs:label "Incest/Abuse Support" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-29 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Incontinence" ; 
         rdfs:label "Incontinence" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-30 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Infertility" ; 
         rdfs:label "Infertility" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-31 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Men's Health" ; 
         rdfs:label "Men's Health" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-32 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Nutrition" ; 
         rdfs:label "Nutrition" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-33 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Orthopedics" ; 
         rdfs:label "Orthopedics" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-34 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Panic/Anxiety Disorders" ; 
         rdfs:label "Panic/Anxiety Disorders" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-35 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pediatrics" ; 
         rdfs:label "Pediatrics" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-36 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Physical Therapy" ; 
         rdfs:label "Physical Therapy" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-37 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Psychology/Psychiatry" ; 
         rdfs:label "Psychology/Psychiatry" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-38 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Senor Health" ; 
         rdfs:label "Senor Health" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-39 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sexuality" ; 
         rdfs:label "Sexuality" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-40 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sleep Disorders" ; 
         rdfs:label "Sleep Disorders" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-41 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Smoking Cessation" ; 
         rdfs:label "Smoking Cessation" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-42 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Substance Abuse" ; 
         rdfs:label "Substance Abuse" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-43 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Thyroid Disease" ; 
         rdfs:label "Thyroid Disease" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-44 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Weight Loss" ; 
         rdfs:label "Weight Loss" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB7-45 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Women's Health" ; 
         rdfs:label "Women's Health" ;
-         skos:broader :IAB7 .
+         skos:broader :IAB7
+.
 :IAB8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Food & Drink" ; 
         rdfs:label "Food & Drink" ;
-         .
+         
+.
 :IAB8-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "American Cuisine" ; 
         rdfs:label "American Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Barbecues & Grilling" ; 
         rdfs:label "Barbecues & Grilling" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cajun/Creole" ; 
         rdfs:label "Cajun/Creole" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Chinese Cuisine" ; 
         rdfs:label "Chinese Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cocktails/Beer" ; 
         rdfs:label "Cocktails/Beer" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Coffee/Tea" ; 
         rdfs:label "Coffee/Tea" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cuisine-Specific" ; 
         rdfs:label "Cuisine-Specific" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Desserts & Baking" ; 
         rdfs:label "Desserts & Baking" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Dining Out" ; 
         rdfs:label "Dining Out" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Food Allergies" ; 
         rdfs:label "Food Allergies" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "French Cuisine" ; 
         rdfs:label "French Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Health/Lowfat Cooking" ; 
         rdfs:label "Health/Lowfat Cooking" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Italian Cuisine" ; 
         rdfs:label "Italian Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Japanese Cuisine" ; 
         rdfs:label "Japanese Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mexican Cuisine" ; 
         rdfs:label "Mexican Cuisine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Vegan" ; 
         rdfs:label "Vegan" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Vegetarian" ; 
         rdfs:label "Vegetarian" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB8-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Wine" ; 
         rdfs:label "Wine" ;
-         skos:broader :IAB8 .
+         skos:broader :IAB8
+.
 :IAB9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hobbies & Interests" ; 
         rdfs:label "Hobbies & Interests" ;
-         .
+         
+.
 :IAB9-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Art/Technology" ; 
         rdfs:label "Art/Technology" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Arts & Crafts" ; 
         rdfs:label "Arts & Crafts" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Beadwork" ; 
         rdfs:label "Beadwork" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Birdwatching" ; 
         rdfs:label "Birdwatching" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Board Games/Puzzles" ; 
         rdfs:label "Board Games/Puzzles" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Candle & Soap Making" ; 
         rdfs:label "Candle & Soap Making" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Card Games" ; 
         rdfs:label "Card Games" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Chess" ; 
         rdfs:label "Chess" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cigars" ; 
         rdfs:label "Cigars" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Collecting" ; 
         rdfs:label "Collecting" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Comic Books" ; 
         rdfs:label "Comic Books" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Drawing/Sketching" ; 
         rdfs:label "Drawing/Sketching" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Freelance Writing" ; 
         rdfs:label "Freelance Writing" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Genealogy" ; 
         rdfs:label "Genealogy" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Getting Published" ; 
         rdfs:label "Getting Published" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Guitar" ; 
         rdfs:label "Guitar" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Home Recording" ; 
         rdfs:label "Home Recording" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Investors & Patents" ; 
         rdfs:label "Investors & Patents" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Jewelry Making" ; 
         rdfs:label "Jewelry Making" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Magic & Illusion" ; 
         rdfs:label "Magic & Illusion" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Needlework" ; 
         rdfs:label "Needlework" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Painting" ; 
         rdfs:label "Painting" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Photography" ; 
         rdfs:label "Photography" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Radio" ; 
         rdfs:label "Radio" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Roleplaying Games" ; 
         rdfs:label "Roleplaying Games" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sci-Fi & Fantasy" ; 
         rdfs:label "Sci-Fi & Fantasy" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-27 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Scrapbooking" ; 
         rdfs:label "Scrapbooking" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-28 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Screenwriting" ; 
         rdfs:label "Screenwriting" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-29 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Stamps & Coins" ; 
         rdfs:label "Stamps & Coins" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-30 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Video & Computer Games" ; 
         rdfs:label "Video & Computer Games" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB9-31 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Woodworking" ; 
         rdfs:label "Woodworking" ;
-         skos:broader :IAB9 .
+         skos:broader :IAB9
+.
 :IAB10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Home & Garden" ; 
         rdfs:label "Home & Garden" ;
-         .
+         
+.
 :IAB10-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Appliances" ; 
         rdfs:label "Appliances" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Entertaining" ; 
         rdfs:label "Entertaining" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Environmental Safety" ; 
         rdfs:label "Environmental Safety" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Gardening" ; 
         rdfs:label "Gardening" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Home Repair" ; 
         rdfs:label "Home Repair" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Home Theater" ; 
         rdfs:label "Home Theater" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Interior Decorating" ; 
         rdfs:label "Interior Decorating" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Landscaping" ; 
         rdfs:label "Landscaping" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB10-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Remodeling & Construction" ; 
         rdfs:label "Remodeling & Construction" ;
-         skos:broader :IAB10 .
+         skos:broader :IAB10
+.
 :IAB11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Law, Gov't & Politics" ; 
         rdfs:label "Law, Gov't & Politics" ;
-         .
+         
+.
 :IAB11-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Immigration" ; 
         rdfs:label "Immigration" ;
-         skos:broader :IAB11 .
+         skos:broader :IAB11
+.
 :IAB11-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Legal Issues" ; 
         rdfs:label "Legal Issues" ;
-         skos:broader :IAB11 .
+         skos:broader :IAB11
+.
 :IAB11-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "U.S. Government Resources" ; 
         rdfs:label "U.S. Government Resources" ;
-         skos:broader :IAB11 .
+         skos:broader :IAB11
+.
 :IAB11-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Politics" ; 
         rdfs:label "Politics" ;
-         skos:broader :IAB11 .
+         skos:broader :IAB11
+.
 :IAB11-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Commentary" ; 
         rdfs:label "Commentary" ;
-         skos:broader :IAB11 .
+         skos:broader :IAB11
+.
 :IAB12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "News" ; 
         rdfs:label "News" ;
-         .
+         
+.
 :IAB12-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "International News" ; 
         rdfs:label "International News" ;
-         skos:broader :IAB12 .
+         skos:broader :IAB12
+.
 :IAB12-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "National News" ; 
         rdfs:label "National News" ;
-         skos:broader :IAB12 .
+         skos:broader :IAB12
+.
 :IAB12-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Local News" ; 
         rdfs:label "Local News" ;
-         skos:broader :IAB12 .
+         skos:broader :IAB12
+.
 :IAB13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Personal Finance" ; 
         rdfs:label "Personal Finance" ;
-         .
+         
+.
 :IAB13-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Beginning Investing" ; 
         rdfs:label "Beginning Investing" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Credit/Debt & Loans" ; 
         rdfs:label "Credit/Debt & Loans" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Financial News" ; 
         rdfs:label "Financial News" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Financial Planning" ; 
         rdfs:label "Financial Planning" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hedge Fund" ; 
         rdfs:label "Hedge Fund" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Insurance" ; 
         rdfs:label "Insurance" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Investing" ; 
         rdfs:label "Investing" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mutual Funds" ; 
         rdfs:label "Mutual Funds" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Options" ; 
         rdfs:label "Options" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Retirement Planning" ; 
         rdfs:label "Retirement Planning" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Stocks" ; 
         rdfs:label "Stocks" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB13-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Tax Planning" ; 
         rdfs:label "Tax Planning" ;
-         skos:broader :IAB13 .
+         skos:broader :IAB13
+.
 :IAB14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Society" ; 
         rdfs:label "Society" ;
-         .
+         
+.
 :IAB14-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Dating" ; 
         rdfs:label "Dating" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Divorce Support" ; 
         rdfs:label "Divorce Support" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Gay Life" ; 
         rdfs:label "Gay Life" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Marriage" ; 
         rdfs:label "Marriage" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Senior Living" ; 
         rdfs:label "Senior Living" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Teens" ; 
         rdfs:label "Teens" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Weddings" ; 
         rdfs:label "Weddings" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB14-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Ethnic Specific" ; 
         rdfs:label "Ethnic Specific" ;
-         skos:broader :IAB14 .
+         skos:broader :IAB14
+.
 :IAB15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Science" ; 
         rdfs:label "Science" ;
-         .
+         
+.
 :IAB15-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Astrology" ; 
         rdfs:label "Astrology" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Biology" ; 
         rdfs:label "Biology" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Chemistry" ; 
         rdfs:label "Chemistry" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Geology" ; 
         rdfs:label "Geology" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Paranormal Phenomena" ; 
         rdfs:label "Paranormal Phenomena" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Physics" ; 
         rdfs:label "Physics" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Space/Astronomy" ; 
         rdfs:label "Space/Astronomy" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Geography" ; 
         rdfs:label "Geography" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Botany" ; 
         rdfs:label "Botany" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB15-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Weather" ; 
         rdfs:label "Weather" ;
-         skos:broader :IAB15 .
+         skos:broader :IAB15
+.
 :IAB16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pets" ; 
         rdfs:label "Pets" ;
-         .
+         
+.
 :IAB16-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Aquariums" ; 
         rdfs:label "Aquariums" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Birds" ; 
         rdfs:label "Birds" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cats" ; 
         rdfs:label "Cats" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Dogs" ; 
         rdfs:label "Dogs" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Large Animals" ; 
         rdfs:label "Large Animals" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Reptiles" ; 
         rdfs:label "Reptiles" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB16-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Veterinary Medicine" ; 
         rdfs:label "Veterinary Medicine" ;
-         skos:broader :IAB16 .
+         skos:broader :IAB16
+.
 :IAB17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sports" ; 
         rdfs:label "Sports" ;
-         .
+         
+.
 :IAB17-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Auto Racing" ; 
         rdfs:label "Auto Racing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Baseball" ; 
         rdfs:label "Baseball" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Bicycling" ; 
         rdfs:label "Bicycling" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Bodybuilding" ; 
         rdfs:label "Bodybuilding" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Boxing" ; 
         rdfs:label "Boxing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Canoeing/Kayaking" ; 
         rdfs:label "Canoeing/Kayaking" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cheerleading" ; 
         rdfs:label "Cheerleading" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Climbing" ; 
         rdfs:label "Climbing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cricket" ; 
         rdfs:label "Cricket" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Figure Skating" ; 
         rdfs:label "Figure Skating" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Fly Fishing" ; 
         rdfs:label "Fly Fishing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Football" ; 
         rdfs:label "Football" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Freshwater Fishing" ; 
         rdfs:label "Freshwater Fishing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Game & Fish" ; 
         rdfs:label "Game & Fish" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Golf" ; 
         rdfs:label "Golf" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Horse Racing" ; 
         rdfs:label "Horse Racing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Horses" ; 
         rdfs:label "Horses" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hunting/Shooting" ; 
         rdfs:label "Hunting/Shooting" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Inline Skating" ; 
         rdfs:label "Inline Skating" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Martial Arts" ; 
         rdfs:label "Martial Arts" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mountain Biking" ; 
         rdfs:label "Mountain Biking" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "NASCAR Racing" ; 
         rdfs:label "NASCAR Racing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Olympics" ; 
         rdfs:label "Olympics" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Paintball" ; 
         rdfs:label "Paintball" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Power & Motorcycles" ; 
         rdfs:label "Power & Motorcycles" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pro Basketball" ; 
         rdfs:label "Pro Basketball" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-27 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pro Ice Hockey" ; 
         rdfs:label "Pro Ice Hockey" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-28 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Rodeo" ; 
         rdfs:label "Rodeo" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-29 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Rugby" ; 
         rdfs:label "Rugby" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-30 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Running/Jogging" ; 
         rdfs:label "Running/Jogging" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-31 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Sailing" ; 
         rdfs:label "Sailing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-32 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Saltwater Fishing" ; 
         rdfs:label "Saltwater Fishing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-33 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Scuba Diving" ; 
         rdfs:label "Scuba Diving" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-34 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Skateboarding" ; 
         rdfs:label "Skateboarding" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-35 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Skiing" ; 
         rdfs:label "Skiing" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-36 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Snowboarding" ; 
         rdfs:label "Snowboarding" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-37 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Surfing/Bodyboarding" ; 
         rdfs:label "Surfing/Bodyboarding" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-38 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Swimming" ; 
         rdfs:label "Swimming" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-39 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Table Tennis/Ping-Pong" ; 
         rdfs:label "Table Tennis/Ping-Pong" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-40 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Tennis" ; 
         rdfs:label "Tennis" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-41 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Volleyball" ; 
         rdfs:label "Volleyball" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-42 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Walking" ; 
         rdfs:label "Walking" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-43 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Waterski/Wakeboard" ; 
         rdfs:label "Waterski/Wakeboard" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB17-44 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "World Soccer" ; 
         rdfs:label "World Soccer" ;
-         skos:broader :IAB17 .
+         skos:broader :IAB17
+.
 :IAB18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Style & Fashion" ; 
         rdfs:label "Style & Fashion" ;
-         .
+         
+.
 :IAB18-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Beauty" ; 
         rdfs:label "Beauty" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB18-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Body Art" ; 
         rdfs:label "Body Art" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB18-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Fashion" ; 
         rdfs:label "Fashion" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB18-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Jewelry" ; 
         rdfs:label "Jewelry" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB18-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Clothing" ; 
         rdfs:label "Clothing" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB18-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Accessories" ; 
         rdfs:label "Accessories" ;
-         skos:broader :IAB18 .
+         skos:broader :IAB18
+.
 :IAB19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Technology & Computing" ; 
         rdfs:label "Technology & Computing" ;
-         .
+         
+.
 :IAB19-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "3-D Graphics" ; 
         rdfs:label "3-D Graphics" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Animation" ; 
         rdfs:label "Animation" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Antivirus Software" ; 
         rdfs:label "Antivirus Software" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "C/C++" ; 
         rdfs:label "C/C++" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cameras & Camcorders" ; 
         rdfs:label "Cameras & Camcorders" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cell Phones" ; 
         rdfs:label "Cell Phones" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Computer Certification" ; 
         rdfs:label "Computer Certification" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Computer Networking" ; 
         rdfs:label "Computer Networking" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Computer Peripherals" ; 
         rdfs:label "Computer Peripherals" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Computer Reviews" ; 
         rdfs:label "Computer Reviews" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Data Centers" ; 
         rdfs:label "Data Centers" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Databases" ; 
         rdfs:label "Databases" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Desktop Publishing" ; 
         rdfs:label "Desktop Publishing" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Desktop Video" ; 
         rdfs:label "Desktop Video" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Email" ; 
         rdfs:label "Email" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Graphics Software" ; 
         rdfs:label "Graphics Software" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Home Video/DVD" ; 
         rdfs:label "Home Video/DVD" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Internet Technology" ; 
         rdfs:label "Internet Technology" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Java" ; 
         rdfs:label "Java" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "JavaScript" ; 
         rdfs:label "JavaScript" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mac Support" ; 
         rdfs:label "Mac Support" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "MP3/MIDI" ; 
         rdfs:label "MP3/MIDI" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Net Conferencing" ; 
         rdfs:label "Net Conferencing" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Net for Beginners" ; 
         rdfs:label "Net for Beginners" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Network Security" ; 
         rdfs:label "Network Security" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Palmtops/PDAs" ; 
         rdfs:label "Palmtops/PDAs" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-27 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "PC Support" ; 
         rdfs:label "PC Support" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-28 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Portable" ; 
         rdfs:label "Portable" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-29 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Entertainment" ; 
         rdfs:label "Entertainment" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-30 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Shareware/Freeware" ; 
         rdfs:label "Shareware/Freeware" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-31 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Unix" ; 
         rdfs:label "Unix" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-32 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Visual Basic" ; 
         rdfs:label "Visual Basic" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-33 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Web Clip Art" ; 
         rdfs:label "Web Clip Art" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-34 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Web Design/HTML" ; 
         rdfs:label "Web Design/HTML" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-35 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Web Search" ; 
         rdfs:label "Web Search" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB19-36 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Windows" ; 
         rdfs:label "Windows" ;
-         skos:broader :IAB19 .
+         skos:broader :IAB19
+.
 :IAB20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Travel" ; 
         rdfs:label "Travel" ;
-         .
+         
+.
 :IAB20-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Adventure Travel" ; 
         rdfs:label "Adventure Travel" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Africa" ; 
         rdfs:label "Africa" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Air Travel" ; 
         rdfs:label "Air Travel" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Australia & New Zealand" ; 
         rdfs:label "Australia & New Zealand" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Bed & Breakfasts" ; 
         rdfs:label "Bed & Breakfasts" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Budget Travel" ; 
         rdfs:label "Budget Travel" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Business Travel" ; 
         rdfs:label "Business Travel" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "By US Locale" ; 
         rdfs:label "By US Locale" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Camping" ; 
         rdfs:label "Camping" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Canada" ; 
         rdfs:label "Canada" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-11 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Caribbean" ; 
         rdfs:label "Caribbean" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-12 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Cruises" ; 
         rdfs:label "Cruises" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-13 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Eastern Europe" ; 
         rdfs:label "Eastern Europe" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-14 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Europe" ; 
         rdfs:label "Europe" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-15 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "France" ; 
         rdfs:label "France" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-16 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Greece" ; 
         rdfs:label "Greece" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-17 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Honeymoons/Getaways" ; 
         rdfs:label "Honeymoons/Getaways" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-18 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hotels" ; 
         rdfs:label "Hotels" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-19 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Italy" ; 
         rdfs:label "Italy" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-20 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Japan" ; 
         rdfs:label "Japan" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Mexico & Central America" ; 
         rdfs:label "Mexico & Central America" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "National Parks" ; 
         rdfs:label "National Parks" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "South America" ; 
         rdfs:label "South America" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Spas" ; 
         rdfs:label "Spas" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Theme Parks" ; 
         rdfs:label "Theme Parks" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Traveling with Kids" ; 
         rdfs:label "Traveling with Kids" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB20-27 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "United Kingdom" ; 
         rdfs:label "United Kingdom" ;
-         skos:broader :IAB20 .
+         skos:broader :IAB20
+.
 :IAB21 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Real Estate" ; 
         rdfs:label "Real Estate" ;
-         .
+         
+.
 :IAB21-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Apartments" ; 
         rdfs:label "Apartments" ;
-         skos:broader :IAB21 .
+         skos:broader :IAB21
+.
 :IAB21-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Architects" ; 
         rdfs:label "Architects" ;
-         skos:broader :IAB21 .
+         skos:broader :IAB21
+.
 :IAB21-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Buying/Selling Homes" ; 
         rdfs:label "Buying/Selling Homes" ;
-         skos:broader :IAB21 .
+         skos:broader :IAB21
+.
 :IAB22 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Shopping" ; 
         rdfs:label "Shopping" ;
-         .
+         
+.
 :IAB22-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Contests & Freebies" ; 
         rdfs:label "Contests & Freebies" ;
-         skos:broader :IAB22 .
+         skos:broader :IAB22
+.
 :IAB22-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Couponing" ; 
         rdfs:label "Couponing" ;
-         skos:broader :IAB22 .
+         skos:broader :IAB22
+.
 :IAB22-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Comparison" ; 
         rdfs:label "Comparison" ;
-         skos:broader :IAB22 .
+         skos:broader :IAB22
+.
 :IAB22-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Engines" ; 
         rdfs:label "Engines" ;
-         skos:broader :IAB22 .
+         skos:broader :IAB22
+.
 :IAB23 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Religion & Spirituality" ; 
         rdfs:label "Religion & Spirituality" ;
-         .
+         
+.
 :IAB23-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Alternative Religions" ; 
         rdfs:label "Alternative Religions" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Atheism/Agnosticism" ; 
         rdfs:label "Atheism/Agnosticism" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Buddhism" ; 
         rdfs:label "Buddhism" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Catholicism" ; 
         rdfs:label "Catholicism" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Christianity" ; 
         rdfs:label "Christianity" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hinduism" ; 
         rdfs:label "Hinduism" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Islam" ; 
         rdfs:label "Islam" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-8 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Judaism" ; 
         rdfs:label "Judaism" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-9 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Latter-Day Saints" ; 
         rdfs:label "Latter-Day Saints" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB23-10 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pagan/Wiccan" ; 
         rdfs:label "Pagan/Wiccan" ;
-         skos:broader :IAB23 .
+         skos:broader :IAB23
+.
 :IAB24 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Uncategorized" ; 
         rdfs:label "Uncategorized" ;
-         .
+         
+.
 :IAB25 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Non-Standard Content" ; 
         rdfs:label "Non-Standard Content" ;
-         .
+         
+.
 :IAB25-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Unmoderated UGC" ; 
         rdfs:label "Unmoderated UGC" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Extreme Graphic/Explicit Violence" ; 
         rdfs:label "Extreme Graphic/Explicit Violence" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Pornography" ; 
         rdfs:label "Pornography" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Profane Content" ; 
         rdfs:label "Profane Content" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-5 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Hate Content" ; 
         rdfs:label "Hate Content" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-6 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Under Construction" ; 
         rdfs:label "Under Construction" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB25-7 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Incentivized" ; 
         rdfs:label "Incentivized" ;
-         skos:broader :IAB25 .
+         skos:broader :IAB25
+.
 :IAB26 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Illegal Content" ; 
         rdfs:label "Illegal Content" ;
-         .
+         
+.
 :IAB26-1 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Illegal Content" ; 
         rdfs:label "Illegal Content" ;
-         skos:broader :IAB26 .
+         skos:broader :IAB26
+.
 :IAB26-2 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Warez" ; 
         rdfs:label "Warez" ;
-         skos:broader :IAB26 .
+         skos:broader :IAB26
+.
 :IAB26-3 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "Spyware/Malware" ; 
         rdfs:label "Spyware/Malware" ;
-         skos:broader :IAB26 .
+         skos:broader :IAB26
+.
 :IAB26-4 a owl:Class ;
         a skos:Concept ;
         skos:prefLabel "CopyrightInfringement" ; 
         rdfs:label "CopyrightInfringement" ;
-         skos:broader :IAB26 .
+         skos:broader :IAB26
+.
